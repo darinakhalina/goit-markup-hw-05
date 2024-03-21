@@ -327,8 +327,12 @@ img {
   flex-direction: column;
 }
 
-.footer-container__col:not(:last-child) {
+.footer-container__col.footer-container__col--logo {
   margin-right: 120px;
+}
+
+.footer-container__col.footer-container__col--contacts {
+  margin-right: 80px;
 }
 
 .footer .logo {
@@ -720,7 +724,9 @@ img {
 
 .modal-contacts-title {
   text-align: center;
+  color: var(--dark-color);
   margin-bottom: 16px;
+  font-weight: 500;
 }
 
 .contacts-form {
